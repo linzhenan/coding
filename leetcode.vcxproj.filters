@@ -7,46 +7,87 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
-    <Filter Include="Source Files\greedy">
-      <UniqueIdentifier>{2d61b7f6-8cd4-4089-a00c-21c5e1d43362}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Sorting">
-      <UniqueIdentifier>{a07e20b6-8c60-455a-85b4-08abb6f16bd4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\LinearList">
-      <UniqueIdentifier>{005c8ae1-2db9-4a99-bff9-0f4c4a6614fe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\LinearList\Array">
-      <UniqueIdentifier>{f6f0d34b-dd33-4b89-9e9e-d97a3356ab8a}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="104.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="136.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="237.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="greedy\11.c">
-      <Filter>Source Files\greedy</Filter>
+    <ClCompile Include="src\144.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sorting\23.c">
-      <Filter>Source Files\Sorting</Filter>
+    <ClCompile Include="src\32.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LinearList\Array\42.c">
-      <Filter>Source Files\LinearList\Array</Filter>
+    <ClCompile Include="src\38.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\84.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\94.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\104.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\136.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\147.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\148.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\206.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\23.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\237.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\29.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\37.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\39.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\42.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\43.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\44.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\88.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\92.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

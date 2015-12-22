@@ -16,6 +16,15 @@
     <Filter Include="Source Files\greedy">
       <UniqueIdentifier>{2d61b7f6-8cd4-4089-a00c-21c5e1d43362}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sorting">
+      <UniqueIdentifier>{a07e20b6-8c60-455a-85b4-08abb6f16bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearList">
+      <UniqueIdentifier>{005c8ae1-2db9-4a99-bff9-0f4c4a6614fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearList\Array">
+      <UniqueIdentifier>{f6f0d34b-dd33-4b89-9e9e-d97a3356ab8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="104.c">
@@ -32,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="greedy\11.c">
       <Filter>Source Files\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\23.c">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearList\Array\42.c">
+      <Filter>Source Files\LinearList\Array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

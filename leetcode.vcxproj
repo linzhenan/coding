@@ -87,12 +87,27 @@
     <ClCompile Include="src\101.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\102.cpp" />
+    <ClCompile Include="src\103.cpp" />
     <ClCompile Include="src\104.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\105.cpp" />
+    <ClCompile Include="src\106.cpp" />
+    <ClCompile Include="src\107.cpp" />
+    <ClCompile Include="src\108.cpp" />
+    <ClCompile Include="src\109.cpp" />
     <ClCompile Include="src\11.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\110.cpp" />
+    <ClCompile Include="src\111.cpp" />
+    <ClCompile Include="src\112.cpp" />
+    <ClCompile Include="src\113.cpp" />
+    <ClCompile Include="src\114.cpp" />
+    <ClCompile Include="src\115.cpp" />
+    <ClCompile Include="src\116.cpp" />
+    <ClCompile Include="src\117.cpp" />
     <ClCompile Include="src\12.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -102,6 +117,7 @@
     <ClCompile Include="src\122.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\127.cpp" />
     <ClCompile Include="src\128.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -111,6 +127,7 @@
     <ClCompile Include="src\136.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\138.cpp" />
     <ClCompile Include="src\14.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

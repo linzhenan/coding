@@ -1,6 +1,9 @@
+
+//O(n2) space solution: http://fisherlei.blogspot.com/2013/03/leetcode-palindrome-partitioning-ii.html
+//O(n) space solution: https://leetcode.com/discuss/9476/solution-does-not-need-table-palindrome-right-uses-only-space
 class Solution {
 public:
-	int minCut(string s) {
+	int minCutOld(string s) {
 		if (s.size() <= 1)
 			return 0;
 		int n = s.size();
@@ -24,5 +27,28 @@ public:
 			}
 		}
 		return mincut[0][n];
+	}
+
+	int minCut(string s) {
+		int n = s.size();
+		if (n <= 1)
+			return 0;
+
+		int cut[n + 1];
+		for (int i = 0; i <= n; i++)
+			cut[i] = i;
+		int *f = cut + 1;
+
+		vector<vector<bool>> isp = vector<vector<bool>>(n, vector<bool>(n, false));
+		for (int i = 0; i < n; i++)
+			isp[i][i] = true;
+
+		for (int r = 1; r < n; r++)
+			for (int l = r; l >= 0; l--)
+				if (s[l] == s[r] && (r - l < 2 || isp[l + 1][r - 1])) {
+					isp[l][r] = true;
+					f[r] = min(f[r], f[l - 1] + 1);
+				}
+		return f[n - 1] - 1;
 	}
 };

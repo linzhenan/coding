@@ -89,7 +89,7 @@ int* twoSum(int* nums, int numsSize, int target) {
             j--;
         }
     }
-    
+    rand()
     free(order);
     return index;
 }

@@ -1,3 +1,8 @@
+#include <queue>
+#include <iostream>
+
+using namespace std;
+
 class Stack {
 private:
     queue<int> q1;
@@ -14,14 +19,18 @@ public:
     // Removes the element on top of the stack.
     void pop() {
         if (q1.empty()) {
-            for (int i = 0; i < q2.size() - 1; i++) {
+            int n = q2.size();
+            for (int i = 0; i < n - 1; i++) {
+            //for (int i = 0; i < q2.size() - 1; i++) {
                 q1.push(q2.front());
                 q2.pop();
             }
             q2.pop();
         }
         else {
-            for (int i = 0; i < q1.size() - 1; i++) {
+            int n = q1.size();
+            for (int i = 0; i < n - 1; i++) {
+            //for (int i = 0; i < q1.size() - 1; i++) {
                 q2.push(q1.front());
                 q1.pop();
             }
@@ -33,7 +42,9 @@ public:
     int top() {
         int ret;
         if (q1.empty()) {
-            for (int i = 0; i < q2.size() - 1; i++) {
+            int n = q2.size();
+            for (int i = 0; i < n - 1; i++) {
+            //for (int i = 0; i < q2.size() - 1; i++) {
                 q1.push(q2.front());
                 q2.pop();
             }
@@ -42,7 +53,9 @@ public:
             q2.pop();
         }
         else {
-            for (int i = 0; i < q1.size() - 1; i++) {
+            int n = q1.size();
+            for (int i = 0; i < n - 1; i++) {
+            //for (int i = 0; i < q1.size() - 1; i++) {
                 q2.push(q1.front());
                 q1.pop();
             }
@@ -58,3 +71,11 @@ public:
         return q1.empty() && q2.empty();
     }
 };
+
+void main() {
+	Stack stk;
+	stk.push(1);
+	stk.push(2);
+	stk.push(3);
+	cout << stk.top();
+}

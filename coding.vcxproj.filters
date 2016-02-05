@@ -13,14 +13,14 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{2bbc8689-f73d-41c3-8961-7fad02f6eadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{8ec74b9a-03dd-4047-ad4f-666c694679bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DataStructure\BinaryIndexedTree.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\IntervalTree.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
     <ClCompile Include="DataStructure\KD-Tree.cpp">
       <Filter>DataStructure</Filter>
     </ClCompile>
@@ -734,6 +734,51 @@
     </ClCompile>
     <ClCompile Include="Google\StringSerialize.cpp">
       <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\IntervalTree-SearchOverlappingInterval.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\BinaryIndexedTree-RangeSumQuery-Mutable.c">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\QuickSort.c">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Sweep-ShadowLength.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\MissingInterval.cpp">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="BitManipulation.c">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\NoDuplicatedList.cpp">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="OS\GetCpuInstructionSet.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="OS\GetCpuEndian.c">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\QueueImplement.c">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\ValidUTF8.cpp">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\85.c">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\TopK.cpp">
+      <Filter>Google</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\RandomSet.cpp">
+      <Filter>DataStructure</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,4 +1,6 @@
+//Using Binary Indexed Tree to solve the leetcode problem Range Sum Query - Mutable
 //https://leetcode.com/problems/range-sum-query-mutable/
+//Using Segment Tree can also solve the same problem
 //http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
 
 struct NumArray {

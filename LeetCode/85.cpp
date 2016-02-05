@@ -1,4 +1,5 @@
 //Maximal Rectangle
+//http://doc.okbase.net/yuzhangcmu/archive/113558.html
 
 class Solution {
 public:

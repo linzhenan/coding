@@ -19,6 +19,9 @@
     <Filter Include="OS">
       <UniqueIdentifier>{8ec74b9a-03dd-4047-ad4f-666c694679bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hihoCoder">
+      <UniqueIdentifier>{73bab018-57c7-4585-80ed-ea3133772341}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\KD-Tree.cpp">
@@ -779,6 +782,33 @@
     </ClCompile>
     <ClCompile Include="Google\RandomSet.cpp">
       <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\ntest2016spring1A.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\ntest2016spring1B.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\ntest2016spring1C.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1289-403Forbidden.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1290-DemoDay.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1288-FontSize.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1135-MagicBox.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1136-ProfessorQsSoftware.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1291-BuidingInSandbox.cpp">
+      <Filter>hihoCoder</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

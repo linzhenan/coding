@@ -795,9 +795,6 @@
     <ClCompile Include="hihoCoder\1289-403Forbidden.cpp">
       <Filter>hihoCoder</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1290-DemoDay.cpp">
-      <Filter>hihoCoder</Filter>
-    </ClCompile>
     <ClCompile Include="hihoCoder\1288-FontSize.cpp">
       <Filter>hihoCoder</Filter>
     </ClCompile>
@@ -808,6 +805,12 @@
       <Filter>hihoCoder</Filter>
     </ClCompile>
     <ClCompile Include="hihoCoder\1291-BuidingInSandbox.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1289-403Forbidden-yingfan.cpp">
+      <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="hihoCoder\1290-DemoDay-yingfan.cpp">
       <Filter>hihoCoder</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,6 +22,9 @@
     <Filter Include="hihoCoder">
       <UniqueIdentifier>{73bab018-57c7-4585-80ed-ea3133772341}</UniqueIdentifier>
     </Filter>
+    <Filter Include="luogu">
+      <UniqueIdentifier>{7af5679a-9d54-48da-8a20-2c7348df44f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\KD-Tree.cpp">
@@ -812,6 +815,18 @@
     </ClCompile>
     <ClCompile Include="hihoCoder\1290-DemoDay-yingfan.cpp">
       <Filter>hihoCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="luogu\P1002.cpp">
+      <Filter>luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="luogu\P1007.cpp">
+      <Filter>luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="luogu\P1008.cpp">
+      <Filter>luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="luogu\P1009.cpp">
+      <Filter>luogu</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

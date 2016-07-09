@@ -1,47 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="DataStructure">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="LeetCode">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
-    <Filter Include="Google">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="OnlineTest">
+      <UniqueIdentifier>{fe17e0bd-b577-4849-b0f6-51e95d6fb515}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Algorithm">
-      <UniqueIdentifier>{2bbc8689-f73d-41c3-8961-7fad02f6eadc}</UniqueIdentifier>
+    <Filter Include="OnlineTest\IndeedTokyo-Practice">
+      <UniqueIdentifier>{80cc01e1-25d1-4ed5-8220-3347e202ecf1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="OS">
+    <Filter Include="OnlineTest\IndeedTokyo-Round1">
+      <UniqueIdentifier>{88b09605-c9e3-40dc-ba95-e235be49492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnlineTest\IndeedTokyo-Round3">
+      <UniqueIdentifier>{1ce10085-9008-45e3-8caa-12d7d45b4166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
       <UniqueIdentifier>{8ec74b9a-03dd-4047-ad4f-666c694679bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="hihoCoder">
-      <UniqueIdentifier>{73bab018-57c7-4585-80ed-ea3133772341}</UniqueIdentifier>
+    <Filter Include="OnlineTest\Microsoft2016-April">
+      <UniqueIdentifier>{71f1293e-9378-43ab-9206-e7d70c513ce3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="luogu">
-      <UniqueIdentifier>{7af5679a-9d54-48da-8a20-2c7348df44f0}</UniqueIdentifier>
+    <Filter Include="OnlineTest\Microsoft2015-July">
+      <UniqueIdentifier>{405ab1fe-01b6-4f51-89cf-2d02db115856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnlineTest\Microsoft2015-April">
+      <UniqueIdentifier>{ab0b991d-359c-49ff-994b-ceddff10f5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{214aa208-9db2-4e12-a790-9b9489dcfc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnlineTest\NetEase2016-Spring">
+      <UniqueIdentifier>{f30b9867-3a47-45b7-a6fc-734356d761ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnlineTest\GoogleAPECTest-RoundA">
+      <UniqueIdentifier>{28473594-ffb6-4e56-ad33-954a8d00e22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnlineTest\GoogleAPECTest-PracticeRound">
+      <UniqueIdentifier>{d8005795-04d1-4d93-9475-0ac33c4171c6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DataStructure\KD-Tree.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\LinkCutTree.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\RangeTree.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\SegmentTree-RangeMinimumQuery.c">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\SegmentTree-SumOfGivenRange.c">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
     <ClCompile Include="LeetCode\1.c">
       <Filter>LeetCode</Filter>
     </ClCompile>
@@ -732,101 +733,179 @@
     <ClCompile Include="LeetCode\328.cpp">
       <Filter>LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="Google\BalancedBinarySortTree.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\MultiTreeSerialize.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\StringSerialize.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\IntervalTree-SearchOverlappingInterval.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="DataStructure\BinaryIndexedTree-RangeSumQuery-Mutable.c">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithm\QuickSort.c">
-      <Filter>Algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="Sweep-ShadowLength.cpp">
-      <Filter>Algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="PriorityQueue.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\MissingInterval.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="BitManipulation.c">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\NoDuplicatedList.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="OS\GetCpuInstructionSet.cpp">
-      <Filter>OS</Filter>
-    </ClCompile>
-    <ClCompile Include="OS\GetCpuEndian.c">
-      <Filter>OS</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\QueueImplement.c">
-      <Filter>Google</Filter>
-    </ClCompile>
-    <ClCompile Include="Google\ValidUTF8.cpp">
-      <Filter>Google</Filter>
-    </ClCompile>
     <ClCompile Include="Google\85.c">
       <Filter>LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="Google\TopK.cpp">
-      <Filter>Google</Filter>
+    <ClCompile Include="OnlineContest\IndeedTokyo-Round3\main2.cpp">
+      <Filter>OnlineTest\IndeedTokyo-Round3</Filter>
     </ClCompile>
-    <ClCompile Include="Google\RandomSet.cpp">
-      <Filter>DataStructure</Filter>
+    <ClCompile Include="OnlineContest\IndeedTokyo-Round3\main3.cpp">
+      <Filter>OnlineTest\IndeedTokyo-Round3</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\ntest2016spring1A.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\IndeedTokyo-Round3\main1.cpp">
+      <Filter>OnlineTest\IndeedTokyo-Round3</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\ntest2016spring1B.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\IndeedTokyo-Round1\main.cpp">
+      <Filter>OnlineTest\IndeedTokyo-Round1</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\ntest2016spring1C.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\IndeedTokyo-Practice\main.c">
+      <Filter>OnlineTest\IndeedTokyo-Practice</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1289-403Forbidden.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main1.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1288-FontSize.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main2.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1135-MagicBox.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main3.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1136-ProfessorQsSoftware.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main4.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1291-BuidingInSandbox.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="Utility\GetCpuEndian.c">
+      <Filter>Utility</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1289-403Forbidden-yingfan.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="Utility\GetCpuInstructionSet.cpp">
+      <Filter>Utility</Filter>
     </ClCompile>
-    <ClCompile Include="hihoCoder\1290-DemoDay-yingfan.cpp">
-      <Filter>hihoCoder</Filter>
+    <ClCompile Include="OnlineContest\Microsoft2015-July\1186-Coordinates.cpp">
+      <Filter>OnlineTest\Microsoft2015-July</Filter>
     </ClCompile>
-    <ClCompile Include="luogu\P1002.cpp">
-      <Filter>luogu</Filter>
+    <ClCompile Include="OnlineContest\Microsoft2015-July\1187-Divisors.cpp">
+      <Filter>OnlineTest\Microsoft2015-July</Filter>
     </ClCompile>
-    <ClCompile Include="luogu\P1007.cpp">
-      <Filter>luogu</Filter>
+    <ClCompile Include="OnlineContest\Microsoft2016-April\1288-FontSize.cpp">
+      <Filter>OnlineTest\Microsoft2016-April</Filter>
     </ClCompile>
-    <ClCompile Include="luogu\P1008.cpp">
-      <Filter>luogu</Filter>
+    <ClCompile Include="OnlineContest\Microsoft2016-April\1289-403Forbidden.cpp">
+      <Filter>OnlineTest\Microsoft2016-April</Filter>
     </ClCompile>
-    <ClCompile Include="luogu\P1009.cpp">
-      <Filter>luogu</Filter>
+    <ClCompile Include="OnlineContest\Microsoft2016-April\1289-403Forbidden-yingfan.cpp">
+      <Filter>OnlineTest\Microsoft2016-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2016-April\1290-DemoDay-yingfan.cpp">
+      <Filter>OnlineTest\Microsoft2016-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2016-April\1291-BuidingInSandbox.cpp">
+      <Filter>OnlineTest\Microsoft2016-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2015-April\1135-MagicBox.cpp">
+      <Filter>OnlineTest\Microsoft2015-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2015-April\1136-ProfessorQsSoftware.cpp">
+      <Filter>OnlineTest\Microsoft2015-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2015-April\1137-Recruitment.cpp">
+      <Filter>OnlineTest\Microsoft2015-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\Microsoft2015-April\1138-IslandsTravel.cpp">
+      <Filter>OnlineTest\Microsoft2015-April</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\NetEase2016-Spring\ntest2016spring1A.cpp">
+      <Filter>OnlineTest\NetEase2016-Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\NetEase2016-Spring\ntest2016spring1B.cpp">
+      <Filter>OnlineTest\NetEase2016-Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\NetEase2016-Spring\ntest2016spring1C.cpp">
+      <Filter>OnlineTest\NetEase2016-Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\85.c">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\214-shortest-palindrome.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\220-contains-duplicate-iii.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\227-basic-calculator-ii.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\228-summary-ranges.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\229-majority-element-ii.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\230-kth-smallest-element-in-a-bst.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\233-number-of-digit-one.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\BalancedBinarySortTree.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\BinaryIndexedTree-RangeSumQuery-Mutable.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\BitManipulation.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\IntervalTree-SearchOverlappingInterval.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\KD-Tree.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\LinkCutTree.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\MissingInterval.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\MultiTreeSerialize.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\NoDuplicatedList.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\PriorityQueue.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\QueueImplement.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\QuickSort.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\RandomSet.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\RangeTree.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\SegmentTree-RangeMinimumQuery.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\SegmentTree-SumOfGivenRange.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\StringSerialize.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Sweep-ShadowLength.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\TopK.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\ValidUTF8.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main1.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main2.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main3.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main4.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

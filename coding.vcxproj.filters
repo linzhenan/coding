@@ -898,13 +898,7 @@
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main1.cpp">
       <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
     </ClCompile>
-    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main2.cpp">
-      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
-    </ClCompile>
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main3.cpp">
-      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
-    </ClCompile>
-    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main4.cpp">
       <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
     </ClCompile>
   </ItemGroup>

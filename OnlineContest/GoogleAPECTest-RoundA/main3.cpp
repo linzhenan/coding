@@ -30,21 +30,16 @@ int main() {
 		scanf("%d", &C[0]);
 		for (int i = 1; i <= M; i++)
 			scanf("%d", &C[i]);
-		double l = -1.0 + 1e-9;
-		double r = +1.0 - 1e-9;
+		double l = -1.0;
+		double r = +1.0;
 		double m;
-		double mres;
-		do {
+		while (r - l > 1e-12) {
 			m = (l + r) / 2;
-			mres = calc(m, C, M);
-			double lres = calc(l, C, M);
-			//printf("l = %.12lf  r = %.12lf  m = %.12lf  v = %.12lf\n", l, r, m, mres);
-			if (lres * mres < 0)
-				r = m;
-			else
+			if (calc(m, C, M) > 0)
 				l = m;
-			
-		} while (abs(mres) > 1e-9 && abs(r - l) > 1e-9);
+			else
+				r = m;
+		}
 		printf("Case #%d: %.12lf\n", t, m);
 	}
 

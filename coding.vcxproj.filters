@@ -904,6 +904,7 @@
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main3.cpp">
       <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="OnlineContest\NetEase2016-VideoCoding\main2.cpp">
       <Filter>OnlineTest\NetEase2016-VideoCoding</Filter>
     </ClCompile>
@@ -912,6 +913,13 @@
     </ClCompile>
     <ClCompile Include="OnlineContest\NetEase2016-VideoCoding\main3.cpp">
       <Filter>OnlineTest\NetEase2016-VideoCoding</Filter>
+=======
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main2.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main4.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+>>>>>>> dbccc6408b505972bab8af7ad5b7cca695adf280
     </ClCompile>
   </ItemGroup>
 </Project>

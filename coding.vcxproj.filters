@@ -907,5 +907,8 @@
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main4.cpp">
       <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
     </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main4ref.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundA</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

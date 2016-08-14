@@ -1,3 +1,4 @@
+﻿
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -8,61 +9,56 @@
 #pragma warning(disable:4996)
 #endif
 
-double dfs(int level, int n, int a, int b, int c, int input, int k) {
-	if (level == n)
-		return input;
-	return  1.0 * a / 100 * dfs(level + 1, n, a, b, c, input & k, k) +
-			1.0 * b / 100 * dfs(level + 1, n, a, b, c, input | k, k) +
-			1.0 * c / 100 * dfs(level + 1, n, a, b, c, input ^ k, k);
+void mult(double m1[4], double m2[4])
+{
+	double ans[4];
+	ans[0] = m1[0] * m2[0] + m1[1] * m2[2];
+	ans[1] = m1[0] * m2[1] + m1[1] * m2[3];
+	ans[2] = m1[2] * m2[0] + m1[3] * m2[2];
+	ans[3] = m1[2] * m2[1] + m1[3] * m2[3];
+	for (int i = 0; i < 4; i++)
+		m1[i] = ans[i];
 }
-int main() {
 
-	/*
-	int x = 1;
-	int k = 1;
-
-	printf("%d\n", x ^ k & k | k ^ k ^ k ^ k);
-	printf("%d\n", x & k | k ^ k & k | k | k);
-	printf("%d\n", x | k & k ^ k | k | k & k);
-	*/
-
-	int t;
-	int n, x, k, a, b, c;
-	double ans;
-
-	scanf("%d", &t);
-	for (int i = 1; i <= t; i++) {
-		scanf("%d%d%d%d%d%d", &n, &x, &k, &a, &b, &c);
-		ans = dfs(0, n, a, b, c, x, k);
-		printf("Case #%d: %.10lf\n", i, ans);
-	}
-	//< D:\C-small-attempt0.in > D:\output.txt
-
-	int na, nb, nc;// & | ^
-	for (int na = 0; na <= n; na++)
-		for (int nb = 0; nb <= n - na; nb++) {
-			int nc = n - na - nb;
-			double prop = pow(1.0 * a / 100, na) *
-				pow(1.0 * b / 100, nb) *
-				pow(1.0 * c / 100, nc);
-			for (int shift = 0; shift <= 13; shift++) {
-				int mask = 1 << shift;
-				int kbit = k & mask;
-				int xbit = x & mask;
-				int rbit;
-				if (!xbit && !kbit)
-					rbit = 0;
-				else if (xbit && !kbit) {
-					if (na)
-						rbit = 0;
-					else
-						rbit = 1 << shift;
-				}
-				else if (!xbit && kbit) {
-
-				}
-
+int main()
+{
+	int T, A, B, C, N, X, K;
+	double a, b, c;
+	scanf("%d", &T);
+	for (int t = 1; t <= T; t++)
+	{
+		scanf("%d%d%d%d%d%d", &N, &X, &K, &A, &B, &C);
+		a = A / 100.0;
+		b = B / 100.0;
+		c = C / 100.0;
+		double ans0[] = { 1, 0, 0, 1 }, ans1[] = { 1, 0, 0, 1 };
+		double cur0[] = { 1, a, 0, b + c }, cur1[] = { a, c, b + c, a + b };
+		while (N)
+		{
+			if (N & 1)
+			{
+				mult(ans0, cur0), mult(ans1, cur1);
+				//mult(cur0, ans0), mult(cur1, ans1);//error
 			}
+			mult(cur0, cur0), mult(cur1, cur1);
+			N >>= 1;
 		}
+		int base = 1;
+		double res = 0;
+		while (X || K)
+		{
+			double p1 = X & 1, p0 = 1 - p1;
+			double c0, c1;
+			if (K & 1)
+				c0 = ans1[2], c1 = ans1[3];
+			else
+				c0 = ans0[2], c1 = ans0[3];
+			res += (c0 * p0 + c1 * p1) * base;
+			X >>= 1;
+			K >>= 1;
+			base <<= 1;
+		}
+		printf("Case #%d: %.10lf\n", t, res);
+	}
 	return 0;
 }

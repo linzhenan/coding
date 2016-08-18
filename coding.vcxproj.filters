@@ -925,5 +925,11 @@
     <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main4largedata.cpp">
       <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main4improved.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\300.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

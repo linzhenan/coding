@@ -47,9 +47,28 @@ public:
 					int idx = it - s.begin();
 					s[idx] = nums[i];
 					sidx[idx] = i;
-					parent[idx] = idx - 1;
+					parent.push_back(idx - 1);
+					
 				}
 			}
+			/*
+			cout << "s  :";
+			for (int j = 0; j < s.size(); j++)
+				cout << s[j] << " ";
+			cout << endl;
+
+			cout << "idx:";
+			for (int j = 0; j < sidx.size(); j++)
+				cout << sidx[j] << " ";
+			cout << endl;
+
+			cout << "par:";
+			for (int j = 0; j < parent.size(); j++)
+				cout << parent[j] << " ";
+			cout << endl;
+
+			cout << endl;
+			*/
 		}
 		int pos = s.size() - 1;
 		while (pos >= 0) {

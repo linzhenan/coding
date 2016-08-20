@@ -931,5 +931,17 @@
     <ClCompile Include="LeetCode\300.cpp">
       <Filter>LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode\239.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\234.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\167.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\238.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

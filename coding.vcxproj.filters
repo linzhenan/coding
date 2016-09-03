@@ -44,6 +44,9 @@
     <Filter Include="OnlineTest\NetEase2016-VideoCoding">
       <UniqueIdentifier>{c8a6446a-52fa-49a3-8407-38a10b70fde5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OnlineTest\GoogleAPECTest-RoundB">
+      <UniqueIdentifier>{304289de-e5a1-4b25-87dd-8f9f58e35045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode\1.c">
@@ -942,6 +945,18 @@
     </ClCompile>
     <ClCompile Include="LeetCode\238.cpp">
       <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundB\main1.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundB</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundB\main2.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundB</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundB\main3.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundB</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\GoogleAPECTest-RoundB\main4.cpp">
+      <Filter>OnlineTest\GoogleAPECTest-RoundB</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -8,9 +8,6 @@
     <Filter Include="OnlineTest">
       <UniqueIdentifier>{fe17e0bd-b577-4849-b0f6-51e95d6fb515}</UniqueIdentifier>
     </Filter>
-    <Filter Include="OnlineTest\IndeedTokyo-Practice">
-      <UniqueIdentifier>{80cc01e1-25d1-4ed5-8220-3347e202ecf1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="OnlineTest\IndeedTokyo-Round1">
       <UniqueIdentifier>{88b09605-c9e3-40dc-ba95-e235be49492f}</UniqueIdentifier>
     </Filter>
@@ -754,9 +751,6 @@
     <ClCompile Include="OnlineContest\IndeedTokyo-Round1\main.cpp">
       <Filter>OnlineTest\IndeedTokyo-Round1</Filter>
     </ClCompile>
-    <ClCompile Include="OnlineContest\IndeedTokyo-Practice\main.c">
-      <Filter>OnlineTest\IndeedTokyo-Practice</Filter>
-    </ClCompile>
     <ClCompile Include="OnlineContest\GoogleAPECTest-PracticeRound\main1.cpp">
       <Filter>OnlineTest\GoogleAPECTest-PracticeRound</Filter>
     </ClCompile>
@@ -793,16 +787,10 @@
     <ClCompile Include="OnlineContest\Microsoft2016-April\1290-DemoDay-yingfan.cpp">
       <Filter>OnlineTest\Microsoft2016-April</Filter>
     </ClCompile>
-    <ClCompile Include="OnlineContest\Microsoft2016-April\1291-BuidingInSandbox.cpp">
-      <Filter>OnlineTest\Microsoft2016-April</Filter>
-    </ClCompile>
     <ClCompile Include="OnlineContest\Microsoft2015-April\1135-MagicBox.cpp">
       <Filter>OnlineTest\Microsoft2015-April</Filter>
     </ClCompile>
     <ClCompile Include="OnlineContest\Microsoft2015-April\1136-ProfessorQsSoftware.cpp">
-      <Filter>OnlineTest\Microsoft2015-April</Filter>
-    </ClCompile>
-    <ClCompile Include="OnlineContest\Microsoft2015-April\1137-Recruitment.cpp">
       <Filter>OnlineTest\Microsoft2015-April</Filter>
     </ClCompile>
     <ClCompile Include="OnlineContest\Microsoft2015-April\1138-IslandsTravel.cpp">
@@ -841,9 +829,6 @@
     <ClCompile Include="LeetCode\233-number-of-digit-one.cpp">
       <Filter>LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="Basic\BalancedBinarySortTree.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Basic\BinaryIndexedTree-RangeSumQuery-Mutable.c">
       <Filter>Basic</Filter>
     </ClCompile>
@@ -851,12 +836,6 @@
       <Filter>Basic</Filter>
     </ClCompile>
     <ClCompile Include="Basic\IntervalTree-SearchOverlappingInterval.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic\KD-Tree.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic\LinkCutTree.cpp">
       <Filter>Basic</Filter>
     </ClCompile>
     <ClCompile Include="Basic\MissingInterval.cpp">
@@ -877,12 +856,6 @@
     <ClCompile Include="Basic\QuickSort.c">
       <Filter>Basic</Filter>
     </ClCompile>
-    <ClCompile Include="Basic\RandomSet.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic\RangeTree.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Basic\SegmentTree-RangeMinimumQuery.c">
       <Filter>Basic</Filter>
     </ClCompile>
@@ -892,13 +865,7 @@
     <ClCompile Include="Basic\StringSerialize.cpp">
       <Filter>Basic</Filter>
     </ClCompile>
-    <ClCompile Include="Basic\Sweep-ShadowLength.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Basic\TopK.cpp">
-      <Filter>Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic\ValidUTF8.cpp">
       <Filter>Basic</Filter>
     </ClCompile>
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundA\main1.cpp">

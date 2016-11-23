@@ -44,6 +44,9 @@
     <Filter Include="OnlineTest\NetEase2016-VideoCoding">
       <UniqueIdentifier>{c8a6446a-52fa-49a3-8407-38a10b70fde5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OnlineTest\AirBnb">
+      <UniqueIdentifier>{51f1f980-646b-4867-8713-d8e7de985ec8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode\1.c">
@@ -930,6 +933,24 @@
     </ClCompile>
     <ClCompile Include="LeetCode\300.cpp">
       <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\241.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\240.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\260.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\268.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\273.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineContest\AirBnb\airbnb.cpp">
+      <Filter>OnlineTest\AirBnb</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

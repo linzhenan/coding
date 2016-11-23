@@ -1,32 +1,34 @@
-//Ugly Number II
-
+#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <string>
+using namespace std;
 class Solution {
 public:
-	bool isUglyNumber(int num) {
-		if (num <= 0)
-			return false;
-		while (num) {
-			if (num == 1)
-				return true;
-			else if (num % 2 == 0)
-				num = num / 2;
-			else if (num % 3 == 0)
-				num = num / 3;
-			else if (num % 5 == 0)
-				num = num / 5;
-			else
-				return false;
-		}
+	int min2(int a, int b) {
+		return a < b ? a : b;
+	}
+	int min3(int a, int b, int c) {
+		return min2(a, min2(b, c));
 	}
 	int nthUglyNumber(int n) {
-		if (n <= 0)
-			return 0;
-		int num = 0;
-		while (n) {
-			num++;
-			if (isUglyNumber(num))
-				n--;
+		vector<int> ugly(n, 0);
+		ugly[0] = 1;
+		int i2, i3, i5;
+		i2 = i3 = i5 = 0;
+		int n2 = ugly[i2] * 2;
+		int n3 = ugly[i3] * 3;
+		int n5 = ugly[i5] * 5;
+		for (int i = 1; i < n; i++) {
+			int num = min3(n2, n3, n5);
+			ugly[i] = num;
+			if (num == n2)
+				n2 = ugly[++i2] * 2;
+			if (num == n3)
+				n3 = ugly[++i3] * 3;
+			if (num == n5)
+				n5 = ugly[++i5] * 5;
 		}
-		return num;
+		return ugly[n - 1];
 	}
 };

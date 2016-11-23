@@ -47,6 +47,9 @@
     <Filter Include="OnlineTest\GoogleAPECTest-RoundB">
       <UniqueIdentifier>{304289de-e5a1-4b25-87dd-8f9f58e35045}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{4634af0a-7582-4c8c-8c16-21dd8b31d529}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode\1.c">
@@ -958,5 +961,96 @@
     <ClCompile Include="OnlineContest\GoogleAPECTest-RoundB\main4.cpp">
       <Filter>OnlineTest\GoogleAPECTest-RoundB</Filter>
     </ClCompile>
+    <ClCompile Include="279.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="282.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="284.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="295.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="301.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="391.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="332.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="363.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="309.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="310.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="313.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="312.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\virtual.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\347.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\316.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\338.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\341.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\337.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\344.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\384.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="148.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\QuickSort.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\349.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\345.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\396.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\397.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\394.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode\google2.cpp" />
+    <ClCompile Include="google2-weilun.cpp" />
+    <ClCompile Include="google2-large.cpp" />
+    <ClCompile Include="A.cpp" />
+    <ClCompile Include="google3.cpp" />
+    <ClCompile Include="netease2.cpp" />
+    <ClCompile Include="netease1.cpp" />
+    <ClCompile Include="netease4.cpp" />
+    <ClCompile Include="airbnb.cpp" />
   </ItemGroup>
 </Project>

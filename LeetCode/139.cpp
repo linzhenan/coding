@@ -1,41 +1,38 @@
 class Solution {
 public:
-    bool dfs(string s, unordered_set<string>& wordDict) {
-        if (s.size() == 0 || wordDict.size() == 0)
-            return false;
-        if (wordDict.find(s) != wordDict.end())
-            return true;
-        for (int len = 1; len <= s.size(); len++) {
-            string left = s.substr(0, len);
-            string right = s.substr(len);
-            if (wordDict.find(left) != wordDict.end() && wordBreak(right, wordDict))
-                return true;
-        }
-        return false;
-    }
-    bool dp(string s, unordered_set<string>& wordDict) {
-        if (s.size() == 0 || wordDict.size() == 0)
-            return false;
-        int n = s.size();
-        bool f[n];
-        for (int i = 0; i < n; i++)
-            f[i] = false;
-        f[0] = wordDict.find(s.substr(0, 1)) != wordDict.end();
-        for (int i = 1; i < n; i++) {
-            if (wordDict.find(s.substr(0, i + 1)) != wordDict.end()) {
-                f[i] = true;
-                continue;
-            }
-            for (int j = 0; j < i; j++) {
-                if (f[j] && wordDict.find(s.substr(j + 1, i - j)) != wordDict.end()) {
-                    f[i] = true;
-                    break;
-                }
-            }
-        }
-        return f[n - 1];
-    }
-    bool wordBreak(string s, unordered_set<string>& wordDict) {
-        return dp(s, wordDict);
-    }
+	bool wordBreak_n2(string s, unordered_set<string>& wordDict) {
+		int n = s.size();
+		vector<vector<bool>> dp(n, vector<bool>(n + 1, false));
+		for (int i = 0; i < n; i++)
+			dp[i][0] = true;
+		for (int len = 1; len <= n; len++) {
+			for (int i = 0; i <= n - len; i++) {
+				string sub = s.substr(i, len);
+				if (wordDict.find(sub) != wordDict.end())
+					dp[i][len] = true;
+				else {
+					for (int l = 1; l < len && !dp[i][len]; l++)
+						dp[i][len] = dp[i][l] && dp[i + l][len - l];
+				}
+			}
+		}
+		return dp[0][n];
+	}
+	bool wordBreak(string s, unordered_set<string>& wordDict) {
+		int n = s.size();
+		vector<bool> dp(n, false);
+		for (int i = 0; i < n; i++) {
+			if (wordDict.find(s.substr(0, i + 1)) != wordDict.end()) {
+				dp[i] = true;
+				continue;
+			}
+			for (int j = 0; j < i; j++) {
+				if (dp[j] && wordDict.find(s.substr(j + 1, i - j)) != wordDict.end()) {
+					dp[i] = true;
+					break;
+				}
+			}
+		}
+		return dp[n - 1];
+	}
 };
